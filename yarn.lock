@@ -4251,9 +4251,9 @@ react-proxy@^3.0.0-alpha.0:
   dependencies:
     lodash "^4.6.1"
 
-react-schema-viewer@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/react-schema-viewer/-/react-schema-viewer-2.1.0.tgz#2386f36106d6f5671940ff48f9c7d6ff82a65aba"
+react-schema-viewer@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/react-schema-viewer/-/react-schema-viewer-2.1.1.tgz#60f17bec4efaf80a7360629cbfafeb1dfb4968f7"
   dependencies:
     bootstrap "^3.3.7"
     joi-to-json-schema "^3.0.0"
