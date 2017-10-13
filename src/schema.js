@@ -4,9 +4,9 @@ const CONTENT_MESSAGE_TYPE = "ActivityStream:Content";
 
 const baseKeys = {
   // client_id will be set by PingCentre if it doesn't exist.
-  client_id: Joi.string().optional(),
-  addon_version: Joi.string().required(),
-  locale: Joi.string().required(),
+  client_id: Joi.string().optional().description('Description is super easy to add. It supports `markdown` as well.'),
+  addon_version: Joi.string().required().description('Another description.'),
+  locale: Joi.string().required().description('And another one'),
   session_id: Joi.string(),
   page: Joi.string().valid(["about:home", "about:newtab", "unknown"]),
   user_prefs: Joi.number().integer().required()
